@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pack</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+        <section class="header">
+            <nav class="header-nav">
+                <div class="logo">
+                    <a href="index.html"><img src="./png/logo-color.png" alt="logo"></a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+            <div class="text-box">
+                <h1>About Me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At<br>, 
+                    suscipit sint corporis qui debitis ea saepe laudantium vero 
+                </p>
+                <a href="#" class="hero-btn">Click here to know more</a>
+            </div>
+
+        </section>
+
+
+
+<!-------------course----------->        
+
+        <section class="course">
+            <h1>courses that we offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <div class="row">
+                <div class="course-col">
+                    <img src="images/html2.png" alt="htmlImage">
+                    <div class="layer">
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <img src="images/css2.webp" alt="cssImage">
+                    <div class="layer">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="course-col">
+                    <img src="images/js2.png" alt="jsImage">
+                    <div class="layer">
+                        <h3>JAVA SCRIPT</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+<!-----------------experiences-------------------->
+
+
+
+<section class="experience">
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+    <div class="row">
+        <div class="experience-col">
+            <img src="images/conf3.jpg" alt="conferenceImage">
+            <h3>our first job with google</h3>
+            <p>
+                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+        </div>
+        <div class="experience-col">
+            <img src="images/conf.jpg" alt="conferenceImage">
+            <h3>business conference</h3>
+            <p>
+                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+        </div>
+        <div class="experience-col">
+            <img src="images/enviroment.png" alt="enviromentImage">
+            <h3>our work enviroment</h3>
+            <p>
+                Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit
+            </p>
+        </div>
+    </div>
+
+</section>
+
+
+    
+<!----footer---------------->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Beatae magnam repudiandae id ipsa excepturi dolorum 
+                 reprehenderit nostrum distinctio<br> pariatur harum dolore,
+                  omnis similique voluptatibus qui
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made Width <i class="fa fa-heart-o"></i> Easy tutorials</p>
+
+        </section>
+
+
+
+
+
+
+<!-----------------------------javascript for toggle menue-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
